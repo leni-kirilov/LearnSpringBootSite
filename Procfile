@@ -1,1 +1,1 @@
-web: sh build/install/LearnSpringBootSite/bin/LearnSpringBootSite
+web: java -cp build/install/LearnSpringBootSite/lib/* bg.kirilov.springboot.Application
