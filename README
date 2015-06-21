@@ -1,0 +1,8 @@
+LearnSpringBoot app
+-------------------
+
+Simple application used to learn the basics around SpringBoot
+
+How to run:
+- ./gradlew run
+- open browser localhost:8080 and you'll see a simple message

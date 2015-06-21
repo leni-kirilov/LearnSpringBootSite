@@ -32,7 +32,10 @@ dependencies {
     // end::actuator[]
 
     compile 'org.codehaus.groovy:groovy-all:2.3.11'
+
+    //Testing
     testCompile 'junit:junit:4.11'
+    testCompile 'org.springframework.boot:spring-boot-starter-test'
 }
 
 sourceCompatibility = 1.8
