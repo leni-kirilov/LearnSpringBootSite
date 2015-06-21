@@ -1,1 +1,1 @@
-web: ./gradlew run
+web: sh build/install/LearnSpringBootSite/bin/LearnSpringBootSite
