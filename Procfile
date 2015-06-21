@@ -1,1 +1,1 @@
-web: java -cp build/install/LearnSpringBootSite/lib/* bg.kirilov.springboot.Application
+web: java -Dserver.port=$PORT -cp build/install/LearnSpringBootSite/lib/* bg.kirilov.springboot.Application
