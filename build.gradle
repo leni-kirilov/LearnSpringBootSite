@@ -1,5 +1,9 @@
-group 'bg.kirilov.springboot'
-version '1.0-SNAPSHOT'
+def appVersion = '1.0-SNAPSHOT'
+def groupName = 'bg.kirilov.springboot'
+def projectName = 'LearnSpringBootSite'
+
+group groupName
+version appVersion
 
 apply plugin: 'groovy'
 apply plugin: 'java'
@@ -42,11 +46,11 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 jar {
-    baseName = 'gs-spring-boot'
-    version = '0.1.0'
+    baseName = "${groupName}.${projectName}"
+    version = appVersion
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.3'
+    gradleVersion = '2.4'
     distributionUrl = "https://services.gradle.org/distributions/gradle-$gradleVersion-all.zip"
 }
